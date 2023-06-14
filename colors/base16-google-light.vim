@@ -372,6 +372,14 @@ call <sid>hi("rubyRegexp",                  s:gui0C, "", s:cterm0C, "", "", "")
 call <sid>hi("rubySymbol",                  s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("rubyStringDelimiter",         s:gui0B, "", s:cterm0B, "", "", "")
 
+" Crystal highlighting
+call <sid>hi("crystalAttribute",               s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("crystalConstant",                s:gui0A, "", s:cterm0A, "", "", "")
+call <sid>hi("crystalInterpolationDelimiter",  s:gui0F, "", s:cterm0F, "", "", "")
+call <sid>hi("crystalRegexp",                  s:gui0C, "", s:cterm0C, "", "", "")
+call <sid>hi("crystalSymbol",                  s:gui0B, "", s:cterm0B, "", "", "")
+call <sid>hi("crystalStringDelimiter",         s:gui0B, "", s:cterm0B, "", "", "")
+
 " SASS highlighting
 call <sid>hi("sassidChar",     s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("sassClassChar",  s:gui09, "", s:cterm09, "", "", "")
