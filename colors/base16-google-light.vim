@@ -374,6 +374,7 @@ call <sid>hi("rubyStringDelimiter",         s:gui0B, "", s:cterm0B, "", "", "")
 
 " Crystal highlighting
 call <sid>hi("crystalAttribute",               s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("crystalInstanceVariable",        s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("crystalConstant",                s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("crystalInterpolationDelimiter",  s:gui0F, "", s:cterm0F, "", "", "")
 call <sid>hi("crystalRegexp",                  s:gui0C, "", s:cterm0C, "", "", "")
